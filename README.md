@@ -1,8 +1,8 @@
-# 🖼️ Grayscale Image Processing Library
+#  Grayscale Image Processing Library
 
 A modular and object-oriented C++ library for grayscale image manipulation using the PGM (Portable Gray Map) format. This project implements core image processing operations such as brightness/contrast adjustment, gamma correction, and image convolution using custom-defined kernels.
 
-## ✨ Features
+## Features
 
 * Load and save PGM (ASCII) images
 * Region of Interest (ROI) extraction
@@ -11,7 +11,7 @@ A modular and object-oriented C++ library for grayscale image manipulation using
 * Gamma correction and brightness/contrast adjustment
 * Convolution with custom kernels (e.g., Sobel, Gaussian, Mean Blur)
 
-## 🔹 Classes Overview
+##  Classes Overview
 
 ### Core Data Structures
 
@@ -42,11 +42,11 @@ Key methods:
   * **GammaCorrection**: Applies gamma curve: `dst = pow(src, gamma)`
   * **Convolution**: Applies a kernel to extract features or blur
 
-## 📄 PGM Format Support
+##  PGM Format Support
 
 Supports PGM ASCII format (`P2`) for easy debugging and file handling. Allows users to read/write human-readable grayscale images.
 
-## 💡 What I Learned
+##  What I Learned
 
 * Solid grasp of Object-Oriented Programming in C++ (constructors, destructors, polymorphism, operator overloading)
 * Dynamic memory management and the Rule of Three
@@ -54,7 +54,7 @@ Supports PGM ASCII format (`P2`) for easy debugging and file handling. Allows us
 * Implementation of image processing algorithms from scratch
 * Interface-based design for algorithm extensibility
 
-## 🚀 Example Usage
+##  Example Usage
 
 ```cpp
 Image img;
@@ -66,7 +66,7 @@ out.save("output.pgm");
 ```
 
 
-## 📖 References
+##  References
 
 * [PGM format spec](https://netpbm.sourceforge.net/doc/pgm.html)
 * Computer Vision & Image Processing textbooks
